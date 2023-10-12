@@ -4,7 +4,7 @@ import __dirname from "../utils/index.js";
 
 const getAllPets = async(req,res)=>{
     const pets = await petsService.getAll();
-    res.send({status:"success!!",payload:pets})
+    res.send({status:"success!!!!",payload:pets})
 }
 
 const createPet = async(req,res)=> {
